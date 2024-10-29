@@ -82,6 +82,8 @@ class HyperLogLogPresto {
   /** @brief Storing cardinality value */
   uint64_t cardinality_;
 
+  int leading_bits;
+
   // TODO(student) - can add more data structures as required
 };
 
